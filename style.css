@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url(Assets/DigitalDream/DIGITALDREAM.ttf);
+body {
+    background-color: black;
+}
+
+#digits {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+img {
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.clock {
+    border: 2px solid white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
